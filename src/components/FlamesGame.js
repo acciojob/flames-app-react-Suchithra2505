@@ -47,7 +47,7 @@ const FlamesGame = () => {
         onChange={(e) => setName2(e.target.value)}
         placeholder="Enter name 2"
         data-testid="input2"
-        name="name1"
+        name="name2"
       />
       <br />
       <button onClick={calculateRelationship} data-testid="calculate_relationship">
